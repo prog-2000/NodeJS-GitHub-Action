@@ -42,7 +42,7 @@ jobs:
         uses: aws-actions/amazon-ecs-render-task-definition@v1
         with:
           task-definition: node_js_td.json
-          container-name: nodejs-app
+          container-name: nodejs_app
           image: ${{steps.build-image.outputs.image}}
       - name: Deploy AWS ECS task defination
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
