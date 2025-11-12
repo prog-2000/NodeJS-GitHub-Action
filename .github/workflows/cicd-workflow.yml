@@ -49,7 +49,7 @@ jobs:
         with:
           task-definition: ${{steps.task-def.outputs.task-definitation}}
           service: node_js_app
-          cluster: ICD_Cluster
+          cluster: CICD_Cluster
           wait-for-service-stability: true
 
 
