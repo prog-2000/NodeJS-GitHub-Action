@@ -38,7 +38,6 @@
         }
     ],
     "cpu": "1024",
-    "enableFaultInjection": false,
     "executionRoleArn": "arn:aws:iam::014195623020:role/ecsTaskExecutionRole",
     "family": "node_js_td",
     "memory": "3072",
